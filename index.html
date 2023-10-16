@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body class="principalBody">
+
+<!--==============NAVBAR+CAROUSEL===============-->
+<header>
+    <div class="navBar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <img src="/assets/images/logo.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact/contact.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Iniciar sesion
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/pages/login/login.html">Ingresar</a></li>
+                      <li><a class="dropdown-item" href="/pages/register/register.html">Registrarse</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/pages/about us/aboutus.html" class="nav-link" aria-disabled="false">Sobre mí</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1581810476461-bcffde6c6904?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2FtaW5nJTIwY29uc29sZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PlayStation</h5>
+                  <p>Videojuegos y Accesorios.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.infobae.com/new-resizer/HfUaWReCv3ZzeLLzKba87xgAROQ=/arc-anglerfish-arc2-prod-infobae/public/UGRPUCERCVBSJAN2HQ5ZQYI2QE.jpg" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PC de escritorio</h5>
+                  <p>Componentes, accesorios y más.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.shutterstock.com/shutterstock/videos/1100558707/thumb/1.jpg?ip=x480" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Xbox</h5>
+                  <p>Consolas, videojuegos y accesorios.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+    </div>
+</header>
+
+<!--===================CARDS=====================-->
+
+
+<div class="cardGallery">
+
+  <div class="cardContent">
+    <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$" alt="">
+    <h3>Playstation 5</h3>
+    <p>PS5. Digital 1tb + DualSense</p>
+    <h6>$640.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+  <div class="cardContent">
+    <img src="https://nucleogamer.com/wp-content/uploads/c3f4a4_d3f54583ab86433192ed100e6d930b41_mv2_d_2935_2916_s_4_2.png" alt="">
+    <h3>Playstation 4</h3>
+    <p>PS4. Slim 500gb + DualShock</p>
+    <h6>$450.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+  <div class="cardContent">
+    <img src="https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png" alt="">
+    <h3>Xbox Series X</h3>
+    <p>Xbox Series X 1tb + Control</p>
+    <h6>$610.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+  <div class="cardContent">
+    <img src="https://assets.xboxservices.com/assets/ea/f2/eaf2bd1e-f245-448b-891b-b276b32a8a24.png?n=294022_BuyBox01_Image-D.png" alt="">
+    <h3>Xbox Series S</h3>
+    <p>Xbox S 500gb + Control</p>
+    <h6>$450.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+  <div class="cardContent">
+    <img src="https://thegoodguys.sirv.com/products/50073106/50073106_737228.PNG?profile=social" alt="">
+    <h3>Xbox Control</h3>
+    <p>Xbox control</p>
+    <h6>$45.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+  <div class="cardContent">
+    <img src="https://www.freeiconspng.com/thumbs/ps4-controller-png/white-ps4-controller-png-ps4-controllers-this-nice-1.png" alt="">
+    <h3>DualShock</h3>
+    <p>DualShock PS4 white</p>
+    <h6>$25.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+  <div class="cardContent">
+    <img src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-controller-product-thumbnail-01-en-14sep21?$facebook$" alt="">
+    <h3>DualSense</h3>
+    <p>PS5 DualSense white</p>
+    <h6>$50.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+  <div class="cardContent">
+    <img src="/assets/images/auriculares-png.png" alt="">
+    <h3>Auriculares</h3>
+    <p>Auriculares con cable pc y consola</p>
+    <h6>$30.000</h6>
+    <ul>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+      <li><i class="fa fa-star checked"></i></li>
+    </ul>
+    <button class="buy-1">Comprar</button>
+  </div>
+
+</div>
+
+
+<!--===================FOOTER====================-->
+
+<footer class="footer">
+    <div class="footerContainer">
+
+        <div class="footerRow">
+
+            <div class="footerLinks">
+                <h4>Informacion</h4>
+                <ul>
+                    <li><a href="/pages/about us/aboutus.html">Sobre Mi</a></li>
+                    <li><a href="/pages/contact/contact.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footerLinks">
+                <h4>Opciones</h4>
+                <ul>
+                  <li><a href="/pages/register/register.html">Iniciar sesion</a></li>
+                  <li><a href="">registro</a></li>
+                </ul>
+            </div>
+
+            <div class="footerLinks">
+                <h4>Politica y privacidad</h4>
+                <ul>
+                  <li><a href="">Sobre Mi</a></li>
+                  <li><a href="">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footerLinks">
+                <h4>Social</h4>
+                <div class="socialLink">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
